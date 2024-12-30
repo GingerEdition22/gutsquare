@@ -3,7 +3,7 @@
         "header":"About Gutsquare",
     "visible":true,
 "body":"What is this website? What even is a Gutsquare?",
-"image":"/images/GutsquareIconWhite.png",
+"image":"images/GutsquareIconWhite.png",
 "link":"about.html"
 },
 {"header":"Midnight Math",

@@ -196,3 +196,33 @@ margin-right:100px;
     color:var(--gold);
     border-color: var(--gold);
 }
+@media screen and (max-width: 600px){
+    body{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .aboutBox{
+        margin-left:25px;
+        margin-right:25px;
+    }
+    #landingtext{
+        margin-left:25px;
+        margin-right:25px;
+    }
+    .content{
+        margin-left:25px;
+        margin-right:25px;
+    }
+    .projectPanel{
+        flex-direction: column;
+        height:auto;
+        width:70%;
+    }
+    .projectPanel img{
+        height:auto;
+        width:50%;
+        padding:0px;
+    }
+}

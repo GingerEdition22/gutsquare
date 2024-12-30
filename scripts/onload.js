@@ -52,6 +52,7 @@ navlinks.appendChild(linkElement);
 
 );
 navbar.appendChild(navlinks);
+navbar.innerHTML+="<a class = 'hamburger' onclick='hamburgerMenu()'>☰</a>"
 navbackground.appendChild(navbar);
 
             document.getElementById('navContainer').appendChild(navbackground);

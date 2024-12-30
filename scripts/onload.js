@@ -24,7 +24,7 @@ function loadFooter(){
     })
 }
 function loadTopNav(){
-    fetch('/data/topnav.json')
+    fetch('data/topnav.json')
         .then(response => response.json())
         .then(data => {
 const navbackground = document.createElement("div");
@@ -93,7 +93,7 @@ function loadMidnightMath(){
 }
 
 function loadIndex(){
-fetch("/data/contentBlocks.json")
+fetch("data/contentBlocks.json")
 .then(response => response.json())
 .then(blocks=>{
   const container = document.querySelector(".blocksContainer");

@@ -1,5 +1,3 @@
-const { text } = require("stream/consumers");
-
 function onLoadFunc(){
 const body = document.querySelector("body");
 const loadPage = body.getAttribute("data-load-page");

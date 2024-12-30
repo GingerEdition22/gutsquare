@@ -1,0 +1,10 @@
+.footerDiv{
+    height:200px;
+    background-color: var(--gray);
+
+}
+.footerDiv p{
+    color:white;
+    font-family: var(--sansSemiBold);
+    margin-left:50px;
+}

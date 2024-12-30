@@ -1,0 +1,21 @@
+[
+    {"name":"About panel",
+        "header":"About Gutsquare",
+    "visible":true,
+"body":"What is this website? What even is a Gutsquare?",
+"image":"/images/GutsquareIconWhite.png",
+"link":"about.html"
+},
+{"header":"Midnight Math",
+"visible":true,
+"body":"The new home page for the Midnight Math leaderboard",
+"link":"MathLeaderboard.html"
+},
+{
+    "header":"The 2025 Awards",
+    "visible":false,
+    "blockClass":"gold",
+    "body":"The homepage for the Gutsquare hosted 2025 awards. Including Midnight Math and sentence of the year.",
+    "link":"awards25.html"
+}
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "text":"Home",
+        "visible":true,
+        "link":"index.html",
+        "dataPage":"index",
+        "class":"page"
+    },
+    {
+        "text":"About",
+        "visible":true,
+        "link":"about.html",
+        "dataPage":"about",
+        "class":"page"
+    },
+    {
+        "text":"Midnight Math Leaderboard",
+        "visible":true,
+        "link":"MathLeaderboard.html",
+        "dataPage":"math",
+        "class":"page"
+    },
+    {
+        "text":"Awards",
+        "visible":false,
+        "link":"awards25.html",
+        "dataPage":"awards",
+        "class":"page gold"
+    }
+]

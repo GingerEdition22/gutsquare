@@ -141,6 +141,7 @@ margin-right:100px;
     padding-bottom: 50px;
     width:100%;
     background-color:var(--gray);
+    color:var(--textWhite);
 }
 .captioned img{
     border: 5px solid var(--gray);
@@ -191,6 +192,7 @@ margin-right:100px;
 .yellow{
     color:var(--yellow);
 }
-h1.gold, p.gold, a.gold,span.gold{
+.gold,.gold h1, .gold p, .gold span, .gold a, h1.gold, p.gold, a.gold,span.gold{
     color:var(--gold);
+    border-color: var(--gold);
 }

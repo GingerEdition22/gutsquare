@@ -1,0 +1,27 @@
+#leaderboardDiv{
+    font-family: var(--sans);
+    background-color: var(--gray);
+    color: #EEE;
+    padding: 20px;
+  }
+  #leaderboardDiv table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+ #leaderboardDiv th, #leaderboardDiv td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #555;
+  }
+#leaderboardDiv th {
+    background-color: #8263d0;
+    color: white;
+  }
+ #leaderboardDiv tr:nth-child(even) {
+    background-color: #2A2A2A;
+  }
+#leaderboardDiv  tr:hover {
+    background-color: #555;
+  }

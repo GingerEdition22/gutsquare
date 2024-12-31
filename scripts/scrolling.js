@@ -6,11 +6,5 @@ function scrollToEndOfSection() {
       behavior: 'smooth'   // Smooth scrolling
     });
   }
-  function hamburgerMenu(){
-    const navlinks = document.querySelector(".navlinks");
-    const logo = document.querySelector(".logo");
-    logo.style.transform = "scale(0)";
-    navlinks.style.transform = "scale(1)";
-    navlinks.style.height = "100vh"; 
-    navlinks.style.backgroundColor = "var(--gray)";
-  }
+
+  

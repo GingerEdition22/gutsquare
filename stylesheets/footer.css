@@ -8,3 +8,8 @@
     font-family: var(--sansSemiBold);
     margin-left:50px;
 }
+.footerDiv img{
+    width:30%;
+    margin-left:50px;
+    margin-top:25px;
+}

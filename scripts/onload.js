@@ -51,8 +51,10 @@ navlinks.appendChild(linkElement);
 }
 
 );
+navlinks.insertAdjacentHTML("afterbegin",`<a class="closeButton" href="#close" onclick="hamburgerMenu()">Close Menu</a>`);
+navlinks.prepend(close);
 navbar.appendChild(navlinks);
-navbar.innerHTML+="<a class = 'hamburger' onclick='hamburgerMenu()'>☰</a>"
+navbar.innerHTML+="<a class = 'hamburger' onclick='hamburgerMenu()'>☰</a>";
 navbackground.appendChild(navbar);
 
             document.getElementById('navContainer').appendChild(navbackground);
@@ -152,3 +154,21 @@ function createBlockElement(block){
   }
     return blockElement;
 }
+let hamburger = false;
+  function hamburgerMenu(){
+    const navlinks = document.querySelector(".navlinks");
+    const logo = document.querySelector(".logo");
+    if(!hamburger){
+    logo.style.transform = "scale(0)";
+    navlinks.style.transform = "scale(1)";
+    navlinks.style.height = "100vh"; 
+    navlinks.style.backgroundColor = "var(--gray)";
+    hamburger=true;
+    }else{
+      logo.style.transform = "scale(1)";
+      navlinks.style.transform = "scale(0)";
+      navlinks.style.height = "0vh"; 
+      navlinks.style.backgroundColor = "var(--gray)";
+      hamburger=false;
+    }
+  }

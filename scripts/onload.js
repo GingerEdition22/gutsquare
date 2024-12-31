@@ -52,7 +52,6 @@ navlinks.appendChild(linkElement);
 
 );
 navlinks.insertAdjacentHTML("afterbegin",`<a class="closeButton" href="#close" onclick="hamburgerMenu()">Close Menu</a>`);
-navlinks.prepend(close);
 navbar.appendChild(navlinks);
 navbar.innerHTML+="<a class = 'hamburger' onclick='hamburgerMenu()'>☰</a>";
 navbackground.appendChild(navbar);
